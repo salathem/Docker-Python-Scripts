@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  myservice:
+    build: .
+    container_name: my-python-cron-app
+    volumes:
+      - ./src:/app
+    restart: always
+    environment:
+      - ENV_VARIABLE=your_value
+    ports:
+      - "8282:8282"  # Adjust this if your app uses specific ports
+    command: cron && tail -f /tmp/out.log
