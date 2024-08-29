@@ -1,0 +1,11 @@
+requests>=2.30.0
+certifi>=2024.2.2
+charset-normalizer>=3.3.2
+churchtools>=0.1.13
+idna>=3.6
+numpy>=1.26.4
+pandas>=2.2.1
+python-dotenv>=1.0.1
+requests>=2.31.0
+spotipy>=2.23.0
+urllib3>=2.2.1

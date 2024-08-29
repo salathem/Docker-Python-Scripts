@@ -1,0 +1,52 @@
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore token/cache files
+*.cache
+.cache
+.spotify_cache
+*.token
+*.tokens
+
+# Ignore Python bytecode and other typical Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore Conda environment directories
+conda-meta/
+bin/
+lib/
+lib64/
+include/
+pip-selfcheck.json
+pyvenv.cfg
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+*.out
+*.err
+
+# Ignore temporary files
+*.swp
+*.swo
+*~

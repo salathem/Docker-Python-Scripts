@@ -1,0 +1,1 @@
+* * * * * /usr/local/bin/python /app/script.py >>/tmp/out.log 2>&1
